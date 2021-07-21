@@ -1,0 +1,8 @@
+body {
+  --line-width: 5px;
+  background: repeating-linear-gradient(45deg, gold, gold var(--line-width), transparent var(--line-width), transparent calc( var(--line-width) * 2) );
+}
+
+body {
+  height: 100vh;
+}
