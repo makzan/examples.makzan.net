@@ -1,0 +1,21 @@
+#pie {
+  width: 0px;
+  height: 0px;
+  border-radius: 50%;
+  border:  100px solid gold;
+  border-color:  transparent;
+  border-bottom-color:  gold;
+  text-align: center;
+  line-height:  80px;
+}
+
+
+#demo {
+  display:  flex;
+  justify-content: center;
+  align-items: center;
+  min-height:  30vh;
+}
+body {
+  font-family: sans-serif;
+}

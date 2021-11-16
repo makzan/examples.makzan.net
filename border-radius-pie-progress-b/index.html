@@ -1,0 +1,23 @@
+<html lang="en">
+<title>Creating Pie with Border-radius</title>
+<link rel="stylesheet" href="styles.css">  
+<body>
+  <h1>Creating Pie with Border-radius</h1>
+  <div id="demo">
+    <div id="pie" class="progress-25">
+      25
+    </div>
+  </div>
+  <script>
+    const progresses = [0,25,50,75,100];
+    let index = 1;
+    setInterval(()=>{
+      index = (index+1) % 5;
+      document.querySelector("#pie").className = "";
+      document.querySelector("#pie").className = `progress-${progresses[index]}`;
+      document.querySelector("#pie").textContent = progresses[index];
+
+    }, 1500);
+  </script>
+</body>
+</html>

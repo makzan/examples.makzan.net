@@ -1,0 +1,55 @@
+#pie {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  line-height:  100px;
+
+  position: relative;
+}
+#pie:after {
+  box-sizing:  border-box;
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+
+  border-radius: 50%;
+  border:  12px solid gold;
+  border-color:  transparent;
+  transform:  rotateZ(-45deg);
+
+  box-shadow: 0 0 0 3px orange;
+
+  transition: all .3s ease-out;
+
+  z-index: -1;
+
+}
+
+#pie.progress-25:after {
+  border-right-color: gold;
+}
+#pie.progress-50:after {
+  border-right-color: gold;
+  border-bottom-color: gold;
+}
+#pie.progress-75:after {
+  border-right-color: gold;
+  border-bottom-color: gold;
+  border-left-color: gold;
+}
+#pie.progress-100:after {
+  border-color: gold;
+}
+
+#demo {
+  display:  flex;
+  justify-content: center;
+  align-items: center;
+  min-height:  30vh;
+}
+body {
+  font-family: sans-serif;
+}

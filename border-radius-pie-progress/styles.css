@@ -1,0 +1,38 @@
+#pie {
+  width: 0px;
+  height: 0px;
+  border-radius: 50%;
+  border:  100px solid gold;
+  border-color:  transparent;
+  text-align: center;
+  line-height:  80px;
+  box-shadow: 0 0 0 3px orange;
+  transform:  rotateZ(-45deg);
+  transition: all .3s ease-out;
+}
+
+#pie.progress-25 {
+  border-right-color:  gold;
+}
+#pie.progress-50 {
+  border-right-color:  gold;
+  border-bottom-color: gold;
+}
+#pie.progress-75 {
+  border-right-color:  gold;
+  border-bottom-color: gold;
+  border-left-color: gold;
+}
+#pie.progress-100 {
+  border-color:  gold;
+}
+
+#demo {
+  display:  flex;
+  justify-content: center;
+  align-items: center;
+  min-height:  30vh;
+}
+body {
+  font-family: sans-serif;
+}
