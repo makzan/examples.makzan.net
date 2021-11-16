@@ -1,10 +1,15 @@
 #pie {
   width: 0px;
-  height: 0px;
+  height: 5px;
   border-radius: 50%;
   border:  100px solid gold;
   border-color:  transparent;
+  border-top-color:  gold;
   border-bottom-color:  gold;
+
+  border-width: 20px;
+  border-bottom-width: 80px;
+
   text-align: center;
 }
 

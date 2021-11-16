@@ -1,0 +1,25 @@
+#pie {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+
+  background: radial-gradient(gold 25%, transparent 25%, transparent 50%, gold 50%, gold 75%, transparent 75%);
+
+  border: 10px solid transparent;
+  border-color:  transparent gold transparent transparent;
+
+
+  text-align: center;
+  line-height:  80px;
+}
+
+
+#demo {
+  display:  flex;
+  justify-content: center;
+  align-items: center;
+  min-height:  30vh;
+}
+body {
+  font-family: sans-serif;
+}

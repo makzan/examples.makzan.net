@@ -1,10 +1,8 @@
 #box {
-  width: 300px;
-  border-radius: 50px;
-  background: gold;
-
-  text-align: center;
-  line-height:  80px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: gold radial-gradient(circle at top, yellow, gold);
 }
 
 
